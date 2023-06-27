@@ -1,0 +1,348 @@
+/*!
+Theme Name: newtheme
+Text Domain: newtheme
+Author: LAIBA TANVEER
+
+Description: complete solution for your news website. It is fast, features rich, customizer-based, and multipurpose free news theme. It is multilingual compatibility, gutenberg compatibility, elementor compatibility and can be integrated easily with newsletter/form plugins. This theme is schema ready, which makes it a favourite for search engines. Newsmatic Theme does not collect any kind of personal data restricted under GDPR, so you can sleep without any worry by using our theme on your website. Developed by dedicated developers, it has user friendly and easy to use advanced control fields like select2, react color picker, image selector, typography field and many more inside the theme. Check out our pre-build demos here: https://blazethemes.com/theme/newsmatic-free. For Detailed Tutorial video please visit: https://www.youtube.com/watch?v=fb8qJ2XEZzQ
+Version: 1.0
+License: GNU General Public License v2 or later
+
+Tags: news, blog, entertainment, one-column, two-columns, grid-layout, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-colors, custom-menu, featured-images, full-width-template, post-formats, sticky-post, rtl-language-support, footer-widgets, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Newtheme is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+	clear: both;
+
+}
+
+
+
+
+a
+{
+	text-decoration: none;
+	font-size: 14px;
+
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+section{
+	padding: 75px,0px;
+}
+#main
+{
+	max-width: 1140px;
+	margin:0 auto;
+}
+
+.col-2
+{
+	width:20%;
+	display: inline-block;
+	float: left;
+}
+.col-3
+{
+	width:30%;
+	display: inline-block;
+	float: left;
+}
+.col-7
+{
+	width:70%;
+	display: inline-block;
+	float: left;
+}
+.col-8{
+	width:80%;
+	display: inline-block;
+	float: left;
+}
+.col-6
+{
+	width: 60%;
+	display: inline-block;;
+	float: left;
+}
+.col-4
+{
+	width: 40%;
+	display: inline-block;;
+	float: left;
+}
+.col-10
+{
+	width: 100%;
+	display: inline-block;;
+	float: left;
+}
+
+#top
+{
+	padding:0px 5px;
+}
+.menu-wrapper
+{
+
+background-color: white;
+	height: 80px;
+	width: 100%;
+	
+	  
+	  padding: 5px;
+	 
+}
+.menu-wrapper .menu-list
+{
+padding: 25px;
+}
+.menu-wrapper .menu-list .list-items{
+	display: inline-block;
+	padding: 12px 15px;
+background:#76e2fc;
+border-radius: 20px;
+margin-top: 5px;
+color:black;
+}
+.menu-wrapper .menu-list .list-items .menu{
+padding: 12px 15px;
+background:#76e2fc;
+border-radius: 20px;
+margin-top: 5px;
+color:black;
+
+}
+.menu-wrapper .menu-list .list-items .menu :hover{
+
+background:orange;
+	transition: .5s;
+	color: white;
+}
+
+.logo-wrapper
+{
+	padding: 5px;
+}
+.logo-wrapper .logo{
+	padding: 22px;
+}
+
+
+#about
+{
+
+font-size: 14px;
+margin-top: 10px;
+
+background-color: white;
+
+
+}
+
+/*======================================Services Section==============================*/
+#hero 
+{
+  padding: 16px;
+  margin-top: 30px;
+}
+#services
+{
+  background: #f2f3f5;
+  font-size: 14px;
+ max-height: auto;
+  max-width: auto;
+
+
+}
+.grid
+{
+ 
+  margin:20px;
+  flex: 30%;
+text-align: center;
+  background: white;
+  color: black;
+  padding: 2px;
+ 
+}
+
+
+
+#testimonials
+{
+  width: auto;
+  height: auto;
+
+  
+}
+.description
+{
+  background-color:  #009bb7;
+  color: white;
+  border:7px solid  #faad3b;
+  width: 60%;
+  height: 200px;
+ margin:auto;
+
+}
+#blog
+{
+  background: #f2f3f5;
+  font-size: 16px;
+  text-align: center;
+ max-height: auto;
+  max-width: auto;
+}
+
+
+
+.button-Read
+{
+	background-color: purple;
+	padding: 10px;
+	color: white;
+}
+
+p{
+	font-size: 12px;
+
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-trendy"],
+input[type="color"],
+textarea {
+	color: #666;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-trendy"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+	color: #111;
+}
+
+select {
+	border: 1px solid #ccc;
+}
+
+textarea {
+	width: 100%;
+}
+
+/* Comments
+--------------------------------------------- */
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: #ccc #ccc #bbb;
+	border-radius: 3px;
+	background: #e6e6e6;
+	color: rgba(0, 0, 0, 0.8);
+	line-height: 1;
+	padding: 0.6em 1em 0.4em;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	border-color: #ccc #bbb #aaa;
+}
+
+button:active,
+button:focus,
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus {
+	border-color: #aaa #bbb #bbb;
+}
+fieldset {
+	padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *		`fieldset` elements in all browsers.
+ */
+legend {
+	box-sizing: border-box;
+	color: inherit;
+	display: table;
+	max-width: 100%;
+	padding: 0;
+	white-space: normal;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+	vertical-align: baseline;
+}
+.search-form
+{
+	height: 100px;
+
+
+}
